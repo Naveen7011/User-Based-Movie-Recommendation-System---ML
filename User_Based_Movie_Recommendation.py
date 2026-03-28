@@ -163,7 +163,7 @@ st.markdown("""
 st.write("\n")
 
 # 🔥 USER INPUT (main change)
-userId = st.number_input("Enter User ID", min_value=1, step=1,value=None,placeholder=" Enter user id")
+userId = st.number_input("Enter User ID", min_value=1,value=None,placeholder=" Enter user id")
 
 # Button
 if st.button("Recommend Movies"):
